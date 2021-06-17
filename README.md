@@ -1,2 +1,1 @@
-# mailservice
-Mail Service
+@RefreshScope - Controllerge dobavit etiledi, gitten config alu uwin
