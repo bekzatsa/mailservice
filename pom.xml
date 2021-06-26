@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>kz.innlab</groupId>
-	<artifactId>mailservice</artifactId>
+	<artifactId>mail-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>mailservice</name>
+	<name>mail-service</name>
 	<description>Eureka Mail Service</description>
 	<properties>
 		<java.version>11</java.version>
@@ -59,11 +59,11 @@
 			<artifactId>spring-cloud-starter-bootstrap</artifactId>
 			<version>3.0.3</version>
 		</dependency>
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-vault-config</artifactId>
-			<version>3.0.3</version>
-		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>org.springframework.cloud</groupId>-->
+<!--			<artifactId>spring-cloud-starter-vault-config</artifactId>-->
+<!--			<version>3.0.3</version>-->
+<!--		</dependency>-->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-feign</artifactId>
@@ -74,8 +74,29 @@
 			<artifactId>spring-cloud-starter-loadbalancer</artifactId>
 			<version>3.0.3</version>
 		</dependency>
-
-
+<!--		<dependency>-->
+<!--			<groupId>org.springframework.cloud</groupId>-->
+<!--			<artifactId>spring-cloud-starter-sleuth</artifactId>-->
+<!--			<version>3.0.3</version>-->
+<!--		</dependency>-->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-sleuth-zipkin</artifactId>
+			<version>3.0.3</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-mail</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.freemarker</groupId>
+			<artifactId>freemarker</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.jsoup</groupId>
+			<artifactId>jsoup</artifactId>
+			<version>1.11.2</version>
+		</dependency>
 	</dependencies>
 	<dependencyManagement>
 		<dependencies>

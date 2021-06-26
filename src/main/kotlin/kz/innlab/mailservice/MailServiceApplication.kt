@@ -6,8 +6,8 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient
 
 @SpringBootApplication
 @EnableEurekaClient
-class MailserviceApplication
+class MailServiceApplication
 
 fun main(args: Array<String>) {
-	runApplication<MailserviceApplication>(*args)
+	runApplication<MailServiceApplication>(*args)
 }
