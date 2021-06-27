@@ -91,9 +91,6 @@ class ReceiveService {
                 if (totalMessageSize >= 10485760) {
                     break
                 }
-
-                //TODO REMOVE
-                break
             }
 
             //5) close the store and folder objects
