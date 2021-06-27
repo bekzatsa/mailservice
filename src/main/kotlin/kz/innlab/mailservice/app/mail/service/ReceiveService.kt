@@ -92,6 +92,7 @@ class ReceiveService {
                     break
                 }
             }
+            println(result.size)
 
             //5) close the store and folder objects
             emailFolder.close(false)
